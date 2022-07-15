@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./percentile/assests/css/form.css">
+   
+</head>
+
+<body>
+    <form action="./percentile/markSheet.html">
+        <div class="container">
+            <section class="first">
+                <div class="up"></div>
+               <a href="https://bsek.edu.pk/welcome" target="_blank"><div class="_img"><img src="./percentile/assests/img/logo3.png" alt="logo"></div></a> 
+                <p id="para"> </p>
+                
+            </section>
+            <section class="second">
+                <label for="">Full Name</label>
+                <input type='text' id="saveServer"  required /> <br> <br>
+                <label for="">Father Name</label>
+                <input type="text" class="li" id="mail" required>
+            </section>
+            <section class="third">
+                <label for="roll">  Roll No.</label>
+                <input type="number" id="roll" required> <br> <br>
+                <label for="">School Name</label>
+                <input type="text"  id="school" required>
+            </section>
+            
+            <section class="forth">
+                <label for="">Urdu Normal (Out of 100) </label>
+                    <input type="number" required id="urdu" max="99" min="0">
+                <label for="">English (Out of 100) </label>
+                <input type="number" required id="english"  max="99" min="0">
+                <label for="">Pak.Studies (Out of 75)</label>
+                <input type="number" required id="pak"  max="74" min="0">
+                <label for="">Islamiat (Out of 75)</label>
+                <input type="number" required id="islam"  max="74" min="0">
+                <label for="">Mathematics (Out of 100)</label>
+                <input type="number" required id="math"  max="99" min="0">
+                <label for="">Biology (Theory) (Out of 75)</label>
+                <input type="number" required id="bioth"  max="74" min="0">
+                <label for="">Biology (Practical) (Out of 25)</label>
+                <input type="number" required id="biop"  max="25" min="0">
+                <label for="">Physics (Theory) (Out of 75)</label>
+                <input type="number" required id="phyth" max="74" min="0">
+                <label for="">Physics (Practical) (Out of 25)</label>
+                <input type="number" required id="phyp" max="25" min="0">
+                <label for="">Chemistry (Theory) (Out of 75)</label>
+                <input type="number" required id="chem" max="74" min="0">
+                <label for="">Chemistry (Practical) (Out of 25)</label>
+                <input type="number" required id="prac" max="25" min="0"> 
+            </section>
+
+            <button onclick="save_data()"  id="bt" type="submit">Submit</button>
+            
+            <button type="reset">Clear form</button>
+        </div>
+    </form>
+    <script src="./percentile/assests/js/form.js"></script>
+</body>
+
+</html>

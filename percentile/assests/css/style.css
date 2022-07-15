@@ -1,0 +1,118 @@
+.center {
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-image: url(../img/a.png);
+    background-repeat: no-repeat;
+    background-size: 800px 600px;
+    background-position-y: 350px;
+}
+
+.main {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 40px;
+    margin-right: 90px;
+}
+
+
+._img {
+    float: left;
+}
+
+.call {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+
+}
+
+#first {
+    margin-left: 70px;
+    width: 650px;
+}
+
+#subjects {
+    border: 2px solid black;
+    width: 75%;
+    border-collapse: collapse;
+    width: 660px;
+    height: 400px;
+
+}
+
+td {
+    font-size: 15px;
+}
+
+#subjects tr,
+#subjects td,
+#subjects th {
+    padding: 5px;
+    border: 2px solid black;
+}
+
+#subjects tr {
+    font-size: 13px;
+}
+
+#b,
+#c,
+#d {
+    margin-left: 0px;
+}
+
+.para {
+    text-align: left;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.saleem {
+    text-align: center;
+}
+.rest{
+    position: relative;
+    top: -100px;
+}
+
+.right {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.total {
+    margin: 0px 15px 0px 10px;
+}
+
+.grade {
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+.um {
+    height: 70px;
+}
+
+.u_pass,
+.e_pass,
+.m_pass,
+.pk_pass,
+.i_pass,
+.bt_pass,
+.bp_pass,
+.pt_pass,
+.pp_pass,
+.ct_pass,
+.cp_pass {
+    float: right;
+    padding-right: 20px;
+    color: rgb(143, 42, 42);
+}
